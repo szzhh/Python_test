@@ -1,0 +1,7 @@
+/foldername/
+.idea
+__pycache__
+.vscode
+build
+dist
+.qt_for_python

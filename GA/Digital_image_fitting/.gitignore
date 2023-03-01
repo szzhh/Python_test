@@ -1,0 +1,5 @@
+# ignore all except .gitignore file
+0
+2
+4
+*.ckpt

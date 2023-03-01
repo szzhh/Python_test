@@ -1,0 +1,14 @@
+{
+    "batchBindOnly":1,
+    "binFileName":"Sigmoid_3778358918822141986_0",
+    "binFileSuffix":".o",
+    "blockDim":1,
+    "kernelName":"Sigmoid_3778358918822141986_0__kernel0",
+    "magic":"RT_DEV_BINARY_MAGIC_ELF",
+    "opParaSize":0,
+    "parameters":[
+        0,
+        0
+    ],
+    "sha256":"7ee2d08b93f38f21105228e096f54ce4b3d6264ade3d0f83325148f79407f94a"
+}

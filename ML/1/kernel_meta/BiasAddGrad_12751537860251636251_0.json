@@ -1,0 +1,13 @@
+{
+    "binFileName":"BiasAddGrad_12751537860251636251_0",
+    "binFileSuffix":".o",
+    "blockDim":1,
+    "kernelName":"BiasAddGrad_12751537860251636251_0__kernel0",
+    "magic":"RT_DEV_BINARY_MAGIC_ELF",
+    "opParaSize":0,
+    "parameters":[
+        0,
+        1
+    ],
+    "sha256":"991ec4df7c63a3a90b47f964053c0aabccf021f0ab550d21476ab5c5c2f0e4c0"
+}

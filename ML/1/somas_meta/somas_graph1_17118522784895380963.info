@@ -1,0 +1,31 @@
+
+
+All Tensors:
+
+index:	size:	real_size:	offset:	addr:	type:	lifelong:	life_start:	life_end:	source node name:
+%0T	#512S	#128S	&0	&0	Common	0	0	2	MatMul-op81
+%1T	#512S	#128S	&0	&0	Workspace	0	0	0	MatMul-op81
+%2T	#0S	#128S	&0	&0	OutputOnly	0	1	1	SigmoidCrossEntropyWithLogits-op66
+%3T	#512S	#128S	&0	&0	Common	0	2	5	SigmoidCrossEntropyWithLogitsGrad-op65
+%4T	#512S	#16S	&0	&0	Common	0	3	7	MatMul-op68
+%5T	#512S	#4S	&0	&0	Common	0	5	6	BiasAddGrad-op72
+%6T	#512S	#4S	&0	&0	RefNodeOutput	0	6	6	SGD-op73
+%7T	#512S	#16S	&0	&0	RefNodeOutput	0	7	7	SGD-op75
+
+
+All Nodes:
+
+$0	MatMul-op81	0	inputs[%0P, %1P, %2P, ]	outputs[%0T, ]	workspace[%1T, ]	streamID[@0]
+$1	SigmoidCrossEntropyWithLogits-op66	0	inputs[%0T, %3P, ]	outputs[%2T, ]	workspace[]	streamID[@0]
+$2	SigmoidCrossEntropyWithLogitsGrad-op65	0	inputs[%0T, %3P, %4P, ]	outputs[%3T, ]	workspace[]	streamID[@0]
+$3	MatMul-op68	0	inputs[%3T, %0P, ]	outputs[%4T, ]	workspace[]	streamID[@0]
+$4	AtomicAddrClean-op82	0	inputs[%5T, ]	outputs[]	workspace[]	streamID[@0]
+$5	BiasAddGrad-op72	0	inputs[%3T, ]	outputs[%5T, ]	workspace[]	streamID[@0]
+$6	SGD-op73	0	inputs[%2P, %5T, %5P, %6P, %7P, %8P, ]	outputs[%6T, ]	workspace[]	streamID[@0]
+$7	SGD-op75	0	inputs[%1P, %4T, %5P, %9P, %7P, %10P, ]	outputs[%7T, ]	workspace[]	streamID[@0]
+
+
+All Stream Groups:
+
+stm0 
+

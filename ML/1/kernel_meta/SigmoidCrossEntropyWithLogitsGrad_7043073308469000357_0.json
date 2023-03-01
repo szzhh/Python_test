@@ -1,0 +1,16 @@
+{
+    "batchBindOnly":1,
+    "binFileName":"SigmoidCrossEntropyWithLogitsGrad_7043073308469000357_0",
+    "binFileSuffix":".o",
+    "blockDim":1,
+    "kernelName":"SigmoidCrossEntropyWithLogitsGrad_7043073308469000357_0__kernel0",
+    "magic":"RT_DEV_BINARY_MAGIC_ELF",
+    "opParaSize":0,
+    "parameters":[
+        0,
+        0,
+        0,
+        0
+    ],
+    "sha256":"ba16e5a959fb0dd1f88c9597b1a9a0552c187fa3f8a702cf2123a1c2903ca328"
+}

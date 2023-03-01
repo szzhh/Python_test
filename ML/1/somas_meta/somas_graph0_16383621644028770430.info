@@ -1,0 +1,17 @@
+
+
+All Tensors:
+
+index:	size:	real_size:	offset:	addr:	type:	lifelong:	life_start:	life_end:	source node name:
+%0T	#0S	#84S	&0	&0	OutputOnly	0	0	0	Sigmoid-op1
+
+
+All Nodes:
+
+$0	Sigmoid-op1	0	inputs[%0P, ]	outputs[%0T, ]	workspace[]	streamID[@0]
+
+
+All Stream Groups:
+
+stm0 
+

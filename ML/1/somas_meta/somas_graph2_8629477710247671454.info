@@ -1,0 +1,18 @@
+
+
+All Tensors:
+
+index:	size:	real_size:	offset:	addr:	type:	lifelong:	life_start:	life_end:	source node name:
+%0T	#0S	#80S	&0	&0	OutputOnly	0	0	0	MatMul-op91
+%1T	#512S	#80S	&0	&0	Workspace	0	0	0	MatMul-op91
+
+
+All Nodes:
+
+$0	MatMul-op91	0	inputs[%0P, %1P, %2P, ]	outputs[%0T, ]	workspace[%1T, ]	streamID[@0]
+
+
+All Stream Groups:
+
+stm0 
+

@@ -1,0 +1,5 @@
+# Default ignored files
+/foldername/
+logs
+cgan_samples
+*.ckpt
